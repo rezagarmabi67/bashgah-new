@@ -1,0 +1,38 @@
+/* //////////////////////////////////////              headers       //////////////////////// */
+
+
+/* //////////////////////////////////////////////      form-style      //////////////////// */
+
+
+.design-form div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.design-form div label:not(.not-font) {
+    color: #4d4d4d;
+    font-size: 14px;
+}
+.design-form div section {
+    display: flex;
+    gap: 5px;
+}
+.design-form div section .not-font {
+    font-size: 12px;
+    color: #555555;
+}
+.design-form div input:not(.not-input) {
+    padding: 0 5px;
+    height: 30px;
+    color: #414141;
+}
+.design-form div input:not(.not-input):focus-within {
+    border: 1px solid var(--bg2);
+}
+.design-form div section span {
+    color: #555555;
+}
+
+/* ///////////////////////////////////////       seachbar          ////////////////////////// */
